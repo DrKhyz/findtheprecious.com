@@ -1,0 +1,113 @@
+/* Bounty simple */
+
+/* *{
+    border: blue 1px dotted;
+} */
+
+
+#getmyreward img{
+    width: 140px;
+    height: 140px;
+}
+
+.badge-secondary{
+    height: 30px;
+    vertical-align: center;
+}
+
+.main-nav{
+    background: white;
+}
+
+#jointhearmy img{
+    width: 140px;
+    height: 140px;
+}
+
+.footer-nav {
+    list-style-type: none;
+}
+
+.card-gollum img{
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+}
+
+.hunterprofil img{
+    position: relative;
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+
+
+.bounty{
+    position:relative;
+    margin: 5px;
+    max-width: 350px;   
+}
+
+.bounty img{
+    opacity: 0.6;
+    border-radius: 5px;
+    z-index: -1;
+    max-width: 350px;  
+}
+
+.wanted-reward{
+    position: absolute;
+    text-align: center;
+    margin: 20px 20px;
+    width: 92%;
+    padding: auto;
+    font-size: 30px;
+    background: white;
+    border-radius: 10px;
+    opacity: 0.8;
+    border: orange 1px solid;
+    z-index: 1;
+}
+
+.wanted-reward p{
+    margin: 15px 15px;
+    opacity: 1;
+    
+}
+
+.wanted-reward strong{
+    color: orangered;
+    opacity: 1;
+}
+
+.wanted-name{
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-top: 60%;
+    width: 100%;
+    font-size: 50px;
+}
+
+#aboutthering table td{
+    border: black 1px solid;
+}
+
+/* Bounty hover */
+
+.bounty:hover img{
+    opacity: 1;
+}
+
+.bounty:hover .wanted-reward{
+    visibility: hidden;
+}
+
+.bounty:hover .wanted-name{
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin: 95% auto;
+    width: 100%;
+    font-size: 40px;
+}
